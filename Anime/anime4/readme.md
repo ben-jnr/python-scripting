@@ -1,4 +1,4 @@
-## anime4
+## anime4.to
 
 #### python script to download multiple episodes at once
 
