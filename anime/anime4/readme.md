@@ -1,8 +1,8 @@
-## anime4.to
+# anime4.to
 
-#### python script to download multiple episodes at once
+## python script to download multiple episodes at once
 
-#### setup
+### setup
 ```
 pip3 install -r req.txt
 ```
@@ -11,7 +11,7 @@ or
 pip install -r req.txt
 ```
 
-#### execution   
+### execution   
 Then run the program as:   
 
 **python3  anime4.py  url  start  end**
