@@ -11,8 +11,9 @@ or
 pip install -r req.txt
 ```
 
+
 ### execution   
-Then run the program as:   
+Run the program as:   
 
 **python3  anime4.py  url  start  end**
 
