@@ -11,10 +11,11 @@ or
 pip install -r req.txt
 ```
 
-#### Execution
-Change url inside the python script as per need, removing the episode number.   
+#### Execution   
 Then run the program as:
 ```
-python3 anime4.py
+python3 anime4.py "https://4anime.to/gintama-season-05-episode-" 1 10
 ```
-Enter starting and ending episode numbers. Wait for the download to finish and enjoy!!
+This command downloads episode 1-10 for gintama season-5.   
+Make sure to not include episode number in the url.    
+Wait for the download to finish and Enjoy!!
