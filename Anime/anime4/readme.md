@@ -12,10 +12,16 @@ pip install -r req.txt
 ```
 
 #### Execution   
-Then run the program as:
+Then run the program as:   
+
+*python3  anime4.py  url  start  end*
+
+example:
+
 ```
-python3 anime4.py "https://4anime.to/gintama-season-05-episode-" 1 10
+python3 anime4.py "https://4anime.to/gintama-porori-hen-episode-" 2 4
 ```
-This command downloads episode 1-10 for gintama season-5.   
-Make sure to not include episode number in the url.    
+
+This command downloads episodes 2-4 of gintama porori hen season-5.   
+Make sure to **not include episode number in the url**.    
 Wait for the download to finish and Enjoy!!
