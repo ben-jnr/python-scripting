@@ -2,7 +2,7 @@
 
 #### python script to download multiple episodes at once
 
-#### Setup
+#### setup
 ```
 pip3 install -r req.txt
 ```
@@ -11,7 +11,7 @@ or
 pip install -r req.txt
 ```
 
-#### Execution   
+#### execution   
 Then run the program as:   
 
 *python3  anime4.py  url  start  end*
