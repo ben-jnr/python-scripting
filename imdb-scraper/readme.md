@@ -5,7 +5,7 @@
 ### setup
 Requires python 3      
 ```
-pip install -r req.txt
+pip install -r requirements.txt
 ```
        
 ### execution   
@@ -19,7 +19,7 @@ minimum = 0 (minimum rating in imdb)
 maximum = 10 (maximum rating in imdb)      
 
 
-###example:       
+### example:       
 
 ```
 python3 imdb.py "batman begins" 7 10
