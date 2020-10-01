@@ -3,15 +3,11 @@
 ## python script to download multiple episodes at once
 
 ### setup
+Requires python3 
 ```
-pip3 install -r req.txt
+pip3 install -r requirements.txt
 ```
-or
-```
-pip install -r req.txt
-```
-
-
+      
 ### execution   
 Run the program as:   
 
