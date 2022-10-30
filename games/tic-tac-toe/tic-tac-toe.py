@@ -5,10 +5,13 @@ pygame.init()
 size = width, height = 450, 450
 color = (255,255, 255)
 
-x_image = pygame.image.load("x.png")
-o_image = pygame.image.load("o.png")
-board_image = pygame.image.load("board.png")
-line_image = pygame.image.load("line.png")
+x_image = pygame.image.load("assets/x.png")
+o_image = pygame.image.load("assets/o.png")
+board_image = pygame.image.load("assets/board.png")
+line_image = pygame.image.load("assets/line.png")
+sounds = []
+sounds.append(pygame.mixer.Sound("assets/click.mp3"))
+sounds.append(pygame.mixer.Sound("assets/celebration.mp3"))
 screen = pygame.display.set_mode(size)
 
 player = 0
@@ -42,22 +45,20 @@ def tick():
             pygame.display.flip()
 
             status, line_x, line_y, angle = if_win() 
+            
             if(status):
+                sounds[1].play()
                 if(player):
                     print(f"Player O Wins!!")
                 else:
                     print(f"Player X Wins!!")
-                for i in range(3):
-                    for j in range(3):
-                        print(matrix[i][j], end=" ")
-                    print()
-                print(line_x, line_y, angle)
                 rotated_line_image = pygame.transform.rotate(line_image, angle)
                 screen.blit(rotated_line_image, (line_x*width/3, line_y*height/3))
                 pygame.display.flip()
                 time.sleep(2)
                 refresh()
             else:
+                sounds[0].play()
                 filled_boxes += 1
                 if(player):
                     player = 0
