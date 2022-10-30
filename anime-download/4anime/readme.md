@@ -5,7 +5,7 @@
 ### setup
 Requires python3 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
       
 ### execution   
